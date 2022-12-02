@@ -1,0 +1,53 @@
+.avatar {
+    /* Center the content */
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+    /* Used to position the content */
+    position: relative;
+
+    /* Colors */
+    background-color: #009999;
+    color: #fff;
+    
+
+    /* Rounded border */
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+}
+
+.avatar__letters {
+    /* Center the content */
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.cls-4{fill:#ff9}
+
+.cls-5{fill:#acedfc}
+
+.cls-10{fill:#68af2f}
+
+.cls-12{opacity:0.61}
+
+.cls-13{fill:#fff}
+
+.cls-16{fill:#5a5e5e}
+
+.noaccess{
+    background: #95b3bb;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+  display:flex;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 90vh;
+background-color: #171c24
+}
