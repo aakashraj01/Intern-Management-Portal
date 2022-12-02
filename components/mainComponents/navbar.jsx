@@ -10,15 +10,7 @@ function Navbar(props){
   const [floatProfile, SetfloatProfile] = useState(false);
   const [user, setuser] = useState("");
 
-  useEffect(() => {
-    var access_cookies = localStorage.getItem("access_token")
-    if (access_cookies) {
-
-      var decoded = jwt_decode(JSON.parse(access_cookies)['access_token'])
-      console.log(decoded);
-      setuser(decoded);
-    }
-  }, [props]);
+ 
   return (
     <>
       <div className="">
