@@ -12,7 +12,7 @@ const DataForCodeRepo = (props) => {
       desc: "Character Recognition is one of the unsolved problems present till date. Claims to solve it has been done in past but not to an extend that we can say ohh! my God, now no more resreach on it. I also have tried to solve this problem and partially achieved it. Looknig at the future of this problem statement, I'm sure that many more brillinat minds are yet to come, take this problem and get more close to say it done. In order to do so I strongly feel thats it's better to start from a point where people have left so that we can invest our energy in going ahead instead of reinventing the wheel.",
     },
     {
-      title: "Sounds Great, How Does It Started?",
+      title: "Sounds Great, How Does It Started ?",
       desc: "When I was working on a product Intelligent Automation Platform (IAP), we have a use case where clients need to extract information from thr documents. The usecase was huge as it converges to digitalization of all paper documents at a higher level. So in process of converting documents to searchable texts we developed Optical Character Recognition (OCR) system. The OCR would take the document and extract information from it.",
     },
     {

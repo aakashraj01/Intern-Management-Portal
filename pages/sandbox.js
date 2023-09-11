@@ -12,9 +12,9 @@ export default function Sandbox() {
   const arr = [
     {
       img: "impSvg/pageSearch.svg",
-      header: "Search Siemens Catalogue",
+      header: "Search Catalogue",
       content:
-        "Prototype to demonstate search on Siemens open catalogue",
+        "Prototype to demonstate search on open catalogue",
       color: "#5436da",
     },
 ];

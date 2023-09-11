@@ -83,8 +83,8 @@ export default function Home() {
                   className="rounded-[5px] h-[105%] w-[110%]"
                 />
                 <div className=" absolute bottom-[0.6rem] left-[1.1rem] text-white">
-                  <h3 className="font-medium">Search Siemens Catalogue</h3>
-                  <p className ="italic">Sandbox to demonstrate search on Siemens open catalogue</p>
+                  <h3 className="font-medium">Search Catalogue</h3>
+                  <p className ="italic">Sandbox to demonstrate search on open catalogue</p>
                 </div>
               </div>
             </div>
