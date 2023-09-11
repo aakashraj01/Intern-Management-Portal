@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Intern Management Portal
+
+Intern Management Portal is a web application built with Next.js for managing internships and interns. It provides an easy way to onboard, track, and manage interns within your organization.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Clone this repository.
+2. Install dependencies using `npm install` or `yarn install`.
+3. Start the development server with `npm run dev` or `yarn dev`.
+4. Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Folder Structure
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- `/components`: Contains React components used throughout the application.
+- `/pages`: Contains Next.js page components.
+- `/public`: Static assets like images and stylesheets.
+- `/utils`: Utility functions and helpers.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Usage
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This application allows you to:
 
-## Learn More
+- Create and manage internship programs.
+- Onboard interns by providing necessary details.
+- Track intern progress and project assignments.
 
-To learn more about Next.js, take a look at the following resources:
+## Configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The following environment variables can be configured:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `DATABASE_URL`: Database connection URL.
+- `API_KEY`: API key for external services.
+- ...
 
-## Deploy on Vercel
+## Dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js (v12.1.0)
+- React (v17.0.2)
+- ...
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+We welcome contributions from the community. If you'd like to contribute, please follow our [contributing guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
