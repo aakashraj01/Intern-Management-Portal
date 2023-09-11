@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/maincomponents/navbar";
+import Navbar from "../components/mainComponents/navbar";
 import Context from "../context/accessacc";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "../styles/globals.css";
